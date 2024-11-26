@@ -1,56 +1,51 @@
 [
     {
-        "id": 6,
+        "id": 1,
         "author": "Preethi",
         "title": "Tips for Effective Debugging",
-        "content": "Debugging is an essential skill for every programmer. Start by isolating the problem, using print statements to track the flow of the program, and reviewing recent changes. Don't forget to take breaks and approach the issue with fresh eyes."
+        "content": "Debugging is an essential skill for every programmer. Start by isolating the problem, using print statements to track the flow of the program, and reviewing recent changes. Don't forget to take breaks and approach the issue with fresh eyes.",
+        "likes": 4
+    },
+    {
+        "id": 2,
+        "author": "Preethi",
+        "title": "My Journey with Python Programming",
+        "content": "Python has been an amazing language to learn, from building simple scripts to developing complex applications. The language\u2019s readability and wide range of libraries make it a versatile tool for both beginners and experienced developers.",
+        "likes": 12
+    },
+    {
+        "id": 3,
+        "author": "Preethi",
+        "title": "Understanding Object-Oriented Programming",
+        "content": "Object-oriented programming (OOP) is a paradigm that uses objects to represent data and methods. It helps in organizing code and making it more reusable, leading to better software design and easier maintenance.",
+        "likes": 0
+    },
+    {
+        "id": 4,
+        "author": "Preethi",
+        "title": "Best Practices for Code Optimization",
+        "content": "Code optimization is essential for ensuring that your programs run efficiently. By focusing on algorithms, memory management, and minimizing redundant operations, you can significantly enhance the performance of your code.",
+        "likes": 0
+    },
+    {
+        "id": 5,
+        "author": "Preethi",
+        "title": "Introduction to Cloud Computing",
+        "content": "Cloud computing has transformed the way we store, access, and manage data. By leveraging cloud services, businesses can scale their infrastructure without having to invest heavily in physical servers, offering flexibility and cost savings.",
+        "likes": 0
+    },
+    {
+        "id": 6,
+        "author": "Preethi",
+        "title": "The Importance of Version Control in Software Development",
+        "content": "Version control systems like Git allow developers to track changes in their code, collaborate efficiently, and maintain multiple versions of a project. It is a critical tool for modern software development workflows.",
+        "likes": 5
     },
     {
         "id": 7,
         "author": "Preethi",
-        "title": "My Journey with Python Programming",
-        "content": "Python has been an amazing language to learn, from building simple scripts to developing complex applications. The language\u2019s readability and wide range of libraries make it a versatile tool for both beginners and experienced developers."
-    },
-    {
-        "id": 8,
-        "author": "Preethi",
-        "title": "Understanding Object-Oriented Programming",
-        "content": "Object-oriented programming (OOP) is a paradigm that uses objects to represent data and methods. It helps in organizing code and making it more reusable, leading to better software design and easier maintenance."
-    },
-    {
-        "id": 9,
-        "author": "Preethi",
-        "title": "Exploring Machine Learning with Python",
-        "content": "Machine learning has revolutionized how we approach problem-solving in various ways.AI rules."
-    },
-    {
-        "id": 10,
-        "author": "Preethi",
-        "title": "Web Development with Flask",
-        "content": "Flask is a lightweight Python web framework that allows you to build web applications quickly and efficiently. Its simplicity, coupled with its wide range of extensions, makes it ideal for developing everything from simple apps to complex websites."
-    },
-    {
-        "id": 11,
-        "author": "Preethi",
-        "title": "Best Practices for Code Optimization",
-        "content": "Code optimization is essential for ensuring that your programs run efficiently. By focusing on algorithms, memory management, and minimizing redundant operations, you can significantly enhance the performance of your code."
-    },
-    {
-        "id": 12,
-        "author": "Preethi",
-        "title": "Introduction to Cloud Computing",
-        "content": "Cloud computing has transformed the way we store, access, and manage data. By leveraging cloud services, businesses can scale their infrastructure without having to invest heavily in physical servers, offering flexibility and cost savings."
-    },
-    {
-        "id": 13,
-        "author": "Preethi",
-        "title": "The Importance of Version Control in Software Development",
-        "content": "Version control systems like Git allow developers to track changes in their code, collaborate efficiently, and maintain multiple versions of a project. It is a critical tool for modern software development workflows."
-    },
-    {
-        "id": 9,
-        "author": "Preethi",
-        "title": "Taking Break",
-        "content": "I like to take break inbetween studying"
+        "title": "Good",
+        "content": "Good",
+        "likes": 1
     }
 ]
