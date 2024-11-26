@@ -1,35 +1,5 @@
 [
     {
-        "id": 1,
-        "author": "Preethi",
-        "title": "First Post",
-        "content": "This is my first post and its about me joining coding BootCamp"
-    },
-    {
-        "id": 2,
-        "author": "Preethi",
-        "title": "Second Post2",
-        "content": "This is my second post and i am really good about joining this."
-    },
-    {
-        "id": 3,
-        "author": "Preethi",
-        "title": "Exploring Unit Testing",
-        "content": "Unit testing is crucial in software development to ensure that each part of the code works as expected. By writing unit tests, we can identify bugs early in the development process and improve code quality."
-    },
-    {
-        "id": 4,
-        "author": "Preethi",
-        "title": "Building a User Interface for a Store",
-        "content": "Creating a seamless user interface for managing a store is essential for providing a good customer experience. Focus on clean design and easy navigation, and consider incorporating features like product search and order management."
-    },
-    {
-        "id": 5,
-        "author": "Preethi",
-        "title": "The Importance of Game Mechanics in Python",
-        "content": "In game development, game mechanics are what drive player engagement. Understanding how to implement features like scoring systems and interactive clues is essential for creating a fun and challenging game experience."
-    },
-    {
         "id": 6,
         "author": "Preethi",
         "title": "Tips for Effective Debugging",
@@ -50,7 +20,37 @@
     {
         "id": 9,
         "author": "Preethi",
-        "title": "Intro to Flask",
-        "content": "First experience with Flask"
+        "title": "Exploring Machine Learning with Python",
+        "content": "Machine learning has revolutionized how we approach problem-solving in various ways.AI rules."
+    },
+    {
+        "id": 10,
+        "author": "Preethi",
+        "title": "Web Development with Flask",
+        "content": "Flask is a lightweight Python web framework that allows you to build web applications quickly and efficiently. Its simplicity, coupled with its wide range of extensions, makes it ideal for developing everything from simple apps to complex websites."
+    },
+    {
+        "id": 11,
+        "author": "Preethi",
+        "title": "Best Practices for Code Optimization",
+        "content": "Code optimization is essential for ensuring that your programs run efficiently. By focusing on algorithms, memory management, and minimizing redundant operations, you can significantly enhance the performance of your code."
+    },
+    {
+        "id": 12,
+        "author": "Preethi",
+        "title": "Introduction to Cloud Computing",
+        "content": "Cloud computing has transformed the way we store, access, and manage data. By leveraging cloud services, businesses can scale their infrastructure without having to invest heavily in physical servers, offering flexibility and cost savings."
+    },
+    {
+        "id": 13,
+        "author": "Preethi",
+        "title": "The Importance of Version Control in Software Development",
+        "content": "Version control systems like Git allow developers to track changes in their code, collaborate efficiently, and maintain multiple versions of a project. It is a critical tool for modern software development workflows."
+    },
+    {
+        "id": 9,
+        "author": "Preethi",
+        "title": "Taking Break",
+        "content": "I like to take break inbetween studying"
     }
 ]

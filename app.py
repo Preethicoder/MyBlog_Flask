@@ -38,5 +38,48 @@ def add():
         write_jsonfile(blog_posts)
         return redirect(url_for('index'))
     return render_template('add.html')
+
+@app.route('/delete/<int:post_id>', methods=['POST'])
+def delete(post_id):
+    blog_posts = read_jsonfile()
+    for post in blog_posts:
+        if post["id"] == post_id:
+            blog_posts.remove(post)
+            break
+    write_jsonfile(blog_posts)
+    return redirect(url_for('index'))
+
+
+@app.route('/update/<int:post_id>', methods=['GET', 'POST'])
+def update(post_id):
+    blog_posts = read_jsonfile()  # Read the blog posts from the JSON file
+
+    # Initialize post variable to None
+    post = None
+
+    # Find the post by matching the id
+    for p in blog_posts:
+        if p["id"] == post_id:
+            post = p
+            break  # Stop searching once we find the post
+
+    # If the post is not found, redirect to the home page
+    if not post:
+        return redirect(url_for('index'))
+
+    # If it's a POST request, update the post
+    if request.method == 'POST':
+        post['author'] = request.form.get('author')
+        post['title'] = request.form.get('title')
+        post['content'] = request.form.get('content')
+
+        write_jsonfile(blog_posts)  # Save the updated blog posts back to the file
+        return redirect(url_for('index'))  # Redirect to the index page after updating
+
+    # If it's a GET request, display the update form with current post details
+    return render_template('update.html', post=post)  # Render the update template with the post data
+
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5003, debug=True)

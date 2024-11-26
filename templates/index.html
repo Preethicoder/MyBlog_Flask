@@ -6,13 +6,21 @@
     <title>Document</title>
     <link rel ="stylesheet" href ="{{url_for('static', filename ='style.css')}}">
 </head>
-<h1>Welcome to My Flask Blog!</h1>
+
 <body>
+<h1>Welcome to My Flask Blog!</h1>
+<p><a href="{{url_for('add')}}">Add a new Blog post</a></p>
     <div class="post">
          {% for details in posts%}
         <h2>{{details["title"]}}</h2>
         <p><em>Written by {{details["author"]}}</em></p>
         <p>Post content:{{details["content"]}}</p>
+        <form action="{{ url_for('update', post_id=details['id']) }}" method="GET">
+        <button type="submit">Update</button>
+        </form>
+        <form action="{{ url_for('delete', post_id=details['id']) }}" method="POST">
+        <button type="submit">Delete</button>
+        </form>
         {% endfor %}
     </div>
 </body>
