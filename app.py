@@ -1,4 +1,6 @@
 import json
+from email.policy import default
+
 from flask import Flask, render_template, request, url_for, redirect
 
 
@@ -31,7 +33,7 @@ def add():
         content = request.form.get('content')
 
         blog_posts = read_jsonfile()
-        new_id = len(blog_posts) + 1
+        new_id = max([post['id'] for post in blog_posts],default =0 ) + 1
         new_post = {'id': new_id, 'author': author, 'title': title, 'content': content, 'likes': 0}
         blog_posts.append(new_post)
         write_jsonfile(blog_posts)
