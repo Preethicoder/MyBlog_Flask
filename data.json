@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "author": "Preethi",
+        "title": "First Post",
+        "content": "This is my first post and its about me joining coding BootCamp"
+    },
+    {
+        "id": 2,
+        "author": "Preethi",
+        "title": "Second Post2",
+        "content": "This is my second post and i am really good about joining this."
+    },
+    {
+        "id": 3,
+        "author": "Preethi",
+        "title": "Exploring Unit Testing",
+        "content": "Unit testing is crucial in software development to ensure that each part of the code works as expected. By writing unit tests, we can identify bugs early in the development process and improve code quality."
+    },
+    {
+        "id": 4,
+        "author": "Preethi",
+        "title": "Building a User Interface for a Store",
+        "content": "Creating a seamless user interface for managing a store is essential for providing a good customer experience. Focus on clean design and easy navigation, and consider incorporating features like product search and order management."
+    },
+    {
+        "id": 5,
+        "author": "Preethi",
+        "title": "The Importance of Game Mechanics in Python",
+        "content": "In game development, game mechanics are what drive player engagement. Understanding how to implement features like scoring systems and interactive clues is essential for creating a fun and challenging game experience."
+    },
+    {
+        "id": 6,
+        "author": "Preethi",
+        "title": "Tips for Effective Debugging",
+        "content": "Debugging is an essential skill for every programmer. Start by isolating the problem, using print statements to track the flow of the program, and reviewing recent changes. Don't forget to take breaks and approach the issue with fresh eyes."
+    },
+    {
+        "id": 7,
+        "author": "Preethi",
+        "title": "My Journey with Python Programming",
+        "content": "Python has been an amazing language to learn, from building simple scripts to developing complex applications. The language\u2019s readability and wide range of libraries make it a versatile tool for both beginners and experienced developers."
+    },
+    {
+        "id": 8,
+        "author": "Preethi",
+        "title": "Understanding Object-Oriented Programming",
+        "content": "Object-oriented programming (OOP) is a paradigm that uses objects to represent data and methods. It helps in organizing code and making it more reusable, leading to better software design and easier maintenance."
+    },
+    {
+        "id": 9,
+        "author": "Preethi",
+        "title": "Intro to Flask",
+        "content": "First experience with Flask"
+    }
+]
